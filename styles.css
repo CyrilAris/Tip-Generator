@@ -1,0 +1,109 @@
+body {
+  background-image: url('images/pattern2.png');
+}
+#container {
+  height: 550px;
+  width: 360px;
+  margin: 70px auto;
+  background: #f7f7f7;
+  border-radius: 20px;
+  text-align: left;
+  border-style: solid;
+  border-width: 5px;
+}
+
+h1 {
+  width: 600px;
+  background: #f7f7f7;
+  margin: 0 auto;
+  padding: 10px 10px;
+  font-size: 50px;
+  font-weight: normal;
+  border-style: solid ;
+  border-width: 5px ;
+  border-radius: 20px; 
+  text-align: center;
+}
+
+p {
+  padding-bottom: 10px;
+  padding-left: 10px ;
+}
+
+form input[type="text"] {
+  width=90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#bill {
+  font-size: 14px;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#bill:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+} 
+
+#people {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+#tipAmt {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: linear-gradient(#DF680B,#000000);
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  transition-duration: 0.8s
+}
+
+button:hover {
+  background: #DF680B;
+  box-shadow:  0px 5px 5px 5px;
+}
+
+#totalTip {
+  font-size: 30px;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  margin-top: -20px;
+}
+
+#totalTip sup {
+  font-size: 20px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}

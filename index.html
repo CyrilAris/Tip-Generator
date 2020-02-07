@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html en>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="icon" type="image/png" href="images/images.png">
+<html>
+<head>
+  <title>US Tip Generator</title>
+</head>
+<body>  
+  <h1>Tip Calculator</h1>
+  <div id="container">
+
+  <div id="calculator">
+    <form>
+      <p>Bill Amount:
+        <p>
+          $ <input id="bill" type="text" placeholder="Enter your bill amount">
+          <p>People Sharing:</p>
+    <input id="people" type="text" placeholder="Enter the number of people">
+    </form>
+    <p>Tip Amount (%)
+            <p>
+              <select id="tipAmt">
+            <option disabled selected value="0">-Tip-</option>
+            <option value="0.25">25&#37; &#45;</option>
+            <option value="0.2">20&#37; &#45;</option>
+            <option value="0.15">15&#37; &#45;</option>
+        </select>
+    <button type="button" id="calculate" onclick="calcualateTip()">Calculate</button>
+  </div>
+  <div id="totalTip">
+    <sup>$</sup><span id="tip">0.00</span>
+    <small id="each">per person</small>
+  </div>
+</div> 
+<script src="app.js"></script>
+</body>
+</html>
+
